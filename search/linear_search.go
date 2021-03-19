@@ -1,4 +1,4 @@
-package searching
+package search
 
 /*
 Problem: Given an array arr[] of n elements, write a function to return the index of a given element x in arr[].
