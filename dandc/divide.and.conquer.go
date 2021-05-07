@@ -77,9 +77,7 @@ Programming should be preferred
 
 package dandc
 
-// We are using the recursive approach to find max/min where we will see that only two
-// elements are left and then:
-// i.e. if a[index]>a[index+1]
+// Using recursive approach to find max/min where we will see that only two elements are left and compare.
 
 func MaxInSlice(data []int, index int, left int) int {
 	var max int
