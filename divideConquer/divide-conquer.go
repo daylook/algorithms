@@ -89,8 +89,8 @@ func MaxInSlice(data []int, index int, left int) int {
 		} else {
 			return data[index+1]
 		}
+		
 	}
-
 	max = MaxInSlice(data, index+1, left)
 
 	if data[index] > max {
