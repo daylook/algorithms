@@ -2,16 +2,16 @@
 Algorithm solutions and samples in Go.
 Most of algorthim questions are from https://www.geeksforgeeks.org/ and etc. Algorithms are mainy grouped as:
 
-A. Brute Force  
-B. Greedy Algorithms
-C. Divide-and-Conquer
-D. Dynamic Programming
-E. Reduction / Transform-and-Conquer
-F. Backtracking 
-G. Branch-and-Bound
-H. Geometric
-I. Mathematical
-J. Randomized
+1. Brute Force  
+2. Greedy Algorithms
+3. Divide-and-Conquer
+4. Dynamic Programming
+5. Reduction / Transform-and-Conquer
+6. Backtracking 
+7. Branch-and-Bound
+8. Geometric
+9. Mathematical
+10. Randomized
 
 
 
