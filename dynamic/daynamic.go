@@ -316,6 +316,22 @@ https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/
 On the other hand, the Longest Path problem doesn’t have the Optimal Substructure property. Here by
 Longest Path we mean longest simple path (path without cycle) between two nodes.
 
+
+Dynamic Programming
+While solving problems using Divide-and-Conquer method, there may be a case when recursively
+sub-problems can result in the same computation being performed multiple times. This problem
+arises when there are identical sub-problems arise repeatedly in a recursion.
+Dynamic programming is used to avoid the requirement of repeated calculation of same sub-problem.
+In this method, we usually store the result of sub - problems in a table and refer that table
+to find if we have already calculated the solution of sub -problems before calculating it again.
+
+Dynamic programming is a bottom up technique in which the smaller sub-problems are solved first
+and the result of these are sued to find the solution of the larger sub-problems.
+Examples:
+· Fibonacci numbers computed by iteration.
+· Warshall’s algorithm for transitive closure implemented by iterations
+· Floyd’s algorithms for all-pairs shortest paths
+
 */
 
 package dynamic

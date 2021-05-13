@@ -73,6 +73,34 @@ be used. For example, Quicksort is a Divide and Conquer algorithm, we never eval
 subproblems again. On the other hand, for calculating the nth Fibonacci number, Dynamic
 Programming should be preferred
 
+Divide-and-Conquer (Decrease-and-Conquer):
+1) Split the problem into several smaller sub-problems
+2) Solve each sub problem
+3) Combine the sub problems results to produce the result.
+
+In divide-and-conquer the size of the problem is reduced by a factor (half, one-third, etc.),
+While in decrease-and-conquer the size of the problem is reduced by a constant.
+
+Examples of divide-and-conquer algorithms:
+· Merge-Sort algorithm (using recursion)
+· Quicksort algorithm (using recursion)
+· Computing the length of the longest path in a binary tree (using recursion)
+· Computing Fibonacci numbers (using recursion)
+· Quick-hull
+
+Examples of decrease-and-conquer algorithms:
+· Computing pow(a, n) by calculating pow(a, n/2) using recursion.
+· Binary search in a sorted list (using recursion)
+· Searching in BST
+· Insertion-Sort
+· Graph traversal algorithms (DFS and BFS)
+· Topological sort
+· Warshall’s algorithm (using recursion)
+· Permutations (Minimal change approach, Johnson-Trotter algorithm)
+· Computing a median, Topological sorting, Fake-coin problem (Ternary search)
+
+
+
 */
 
 package divideConquer
@@ -89,7 +117,7 @@ func MaxInSlice(data []int, index int, left int) int {
 		} else {
 			return data[index+1]
 		}
-		
+
 	}
 	max = MaxInSlice(data, index+1, left)
 
