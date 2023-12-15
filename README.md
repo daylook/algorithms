@@ -1,3 +1,4 @@
+[![Go](https://github.com/daylook/algorithms/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/daylook/algorithms/actions/workflows/go.yml)
 # Go Algorithms
 Algorithm solutions and samples in Go.
 
